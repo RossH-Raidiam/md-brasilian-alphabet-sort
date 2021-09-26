@@ -73,7 +73,7 @@ func MergeSort(strings []string) []string {
 	var left []string = strings[:midpoint]
 	var right []string = strings[midpoint:]
 
-	return merge(mergeSort(left), mergeSort(right))
+	return merge(MergeSort(left), MergeSort(right))
 }
 
 func merge(left []string, right []string) []string {
