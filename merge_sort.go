@@ -1,4 +1,4 @@
-package main
+package mdbrasilianalphabetsort
 
 //Can extend this as needed
 var _map = GenerateMap()
