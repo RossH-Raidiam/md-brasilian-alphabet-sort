@@ -1,0 +1,70 @@
+package main
+
+func GenerateMap() map[rune]int {
+	var _map = map[rune]int{}
+	alphabet := []rune{
+		' ',
+		'a',
+		'A',
+		'Á',
+		'á',
+		'b',
+		'B',
+		'c',
+		'C',
+		'd',
+		'D',
+		'e',
+		'E',
+		'f',
+		'F',
+		'g',
+		'G',
+		'h',
+		'H',
+		'i',
+		'I',
+		'j',
+		'J',
+		'k',
+		'K',
+		'l',
+		'L',
+		'm',
+		'M',
+		'n',
+		'N',
+		'o',
+		'O',
+		'Ô',
+		'p',
+		'P',
+		'q',
+		'Q',
+		'r',
+		'R',
+		's',
+		'S',
+		't',
+		'T',
+		'u',
+		'U',
+		'ú',
+		'v',
+		'V',
+		'w',
+		'W',
+		'x',
+		'X',
+		'y',
+		'Y',
+		'z',
+		'Z',
+	}
+
+	for i, r := range alphabet {
+		_map[r] = i
+	}
+
+	return _map
+}
