@@ -1,4 +1,4 @@
-package main
+package mdbrasilianalphabetsort
 
 func GenerateMap() map[rune]int {
 	var _map = map[rune]int{}
