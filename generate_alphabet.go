@@ -5,7 +5,7 @@ func GenerateMap() map[rune]int {
 	alphabet := [][]rune{
 		{' '},
 		{'a', 'A'},
-		{'Á', 'á'},
+		{'á', 'Á'},
 		{'b', 'B'},
 		{'c', 'C'},
 		{'d', 'D'},
